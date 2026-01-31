@@ -7,6 +7,26 @@ Created on Fri Jan 30 07:48:14 2026
 
 import streamlit as st
 
+st.markdown(
+    """
+    <style>
+    .stApp {
+        background-color: lightpink;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
+
+st.title("MCR Sneakers")
+
+
+st.image(
+    "https://images.unsplash.com/photo-1542291026-7eec264c27ff",
+    width=250
+)
+
 st.title("MCR Sneakers")
 
 category = st.selectbox("Select Category", ["Children","Adults"])
