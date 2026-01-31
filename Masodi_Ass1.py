@@ -15,7 +15,7 @@ st.title("MCR Sneakers")
 
 st.image(
     "https://img.ltwebstatic.com/images3_pi/2024/03/15/06/171051719158542ebaa75e435460ad9bb499efd184_thumbnail_405x.webp"
-    width=250
+    ,width=250
 )
 
 st.title("MCR Sneakers")
