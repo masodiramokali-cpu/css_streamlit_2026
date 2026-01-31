@@ -7,7 +7,10 @@ Created on Fri Jan 30 07:48:14 2026
 
 import streamlit as st
 
-st.markdown("<style>.stApp { background-color: lightpink; }</style>")
+st.markdown(
+    "<style>.stApp { background-color: lightpink; }</style>",
+    unsafe_allow_html=True
+)
 
 
 st.title("MCR Sneakers")
